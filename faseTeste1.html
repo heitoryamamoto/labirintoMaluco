@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<script src="mapa1.js"></script>
+<script src="sair.js"></script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+    .tela_do_jogo {
+        background-color: #191e29;
+        text-align: center;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+
+    #parede {
+        color: ghostwhite;
+        margin-top: -60px;
+        margin-left: 5px;
+
+
+    }
+
+    #cardjogo {
+        margin-top: 4rem;
+        background-color: darkslateblue;
+        width: 570px;
+        max-width: 600px;
+        height: 570px;
+        max-height: 600px;
+        background: linear-gradient(darkslateblue, darkslategray, darkorchid);
+        background-size: 150% 300%;
+        box-shadow: 0px 0px 12px darkslateblue;
+        border-radius: 5%;
+
+    }
+
+    #rodada {
+        position: relative;
+        top: 30px;
+        left: -40px;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 30px;
+        color: red;
+        text-shadow: 1px 1px 5px black;
+
+    }
+
+    #vida1 {
+        margin-left: 240px;
+        box-shadow: 1px 1px 2px black;
+
+    }
+
+
+    html {
+        zoom: 130%;
+    }
+</style>
+
+<body class="tela_do_jogo">
+    <div id="cardjogo">
+        <div style="height: 7vh;">
+            <div id="rodada">Fase 1</div>
+            <img id="vida1" src="imagem/vida.png" width="30px">
+            <img style="box-shadow: 1px 1px 5px black;" id="vida2" src="imagem/vida.png" width="30px">
+            <img style="box-shadow: 1px 1px 5px black;" id="vida3" src="imagem/vida.png" width="30px">
+        </div>
+        <pre><div id="boneco"></div></pre> <br>
+        <pre><div id="parede"></div></pre>
+
+
+    </div>
+</body>
+
+</html>

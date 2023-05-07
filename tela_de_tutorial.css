@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.menu {
+  font-style: italic;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+}
+
+.cabecalho {
+  color: #fff;
+}
+
+.botao0 {
+  position: relative;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2.5em;
+  display: inline-block;
+  border-radius: 1em;
+  transition: all .2s;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: blue;
+  background-color: whitesmoke;
+  width: 250px;
+  box-shadow: 5px 5px 5px black;
+  text-shadow: 1px 3px 2px black;
+
+}
+
+.botao0:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.botao0:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.botao0::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.botao0::after {
+  background-color: aliceblue;
+}
+
+.botao0:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.botao1 {
+  position: relative;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 1.3em;
+  display: inline-block;
+  border-radius: 1em;
+  transition: all .2s;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: lime;
+  background-color: whitesmoke;
+  width: 250px;
+  box-shadow: 5px 5px 5px black;
+  text-shadow: 1px 3px 2px black;
+}
+
+.botao1:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.botao1:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.botao1::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.botao1::after {
+  background-color: aliceblue;
+}
+
+.botao1:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.botao2 {
+  position: relative;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2.5em;
+  display: inline-block;
+  border-radius: 1em;
+  transition: all .2s;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: red;
+  background-color: whitesmoke;
+  width: 250px;
+  text-shadow: 1px 3px 2px black;
+}
+
+.botao2:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.botao2:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.botao2::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.botao2::after {
+  background-color: aliceblue;
+}
+
+.botao2:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.container {
+  background-color: rgb(44, 51, 51);
+  display: flex;
+  justify-content: center;
+
+}
+
+.tutorial {
+  color: #fff;
+  text-align: center;
+  background-color: rgb(0, 28, 42);
+  width: 1000px;
+  height: 1060px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  font-family: 'Press Start 2P', cursive;
+  box-shadow: 0px 0px 10px rgb(0, 28, 42);
+}
+
+.botaovoltar {
+  left: 10px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.pseudocabecalho {
+  font-size: 60px;
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 0 px 0px 10x purple;
+}
